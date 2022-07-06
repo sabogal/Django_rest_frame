@@ -1,0 +1,29 @@
+#DJANGO
+Django==3.2.5
+#DJANGO REST-FRAMEWORK
+djangorestframework==3.13.1
+#MYSQL
+mysqlclient
+PyMySQL==1.0.2
+django-mysql==2.2.0
+#HISTORICO DE MODELOS
+django-simple-history==3.0.0
+#CAPTURAR EL USER
+django-crum==0.7.9
+#IMAGENES
+Pillow==8.3.1
+#LIBRERIA DE WIDGET PARA FORMULARIOS HTMl
+django-widget-tweaks==1.4.9
+#LIBRERIA DE PDFs
+xhtml2pdf==0.2.5
+reportlab==3.6.1
+# suds
+suds==1.0.0
+#simplejson
+simplejson==3.17.6
+#swagger
+drf-yasg==1.20.0
+#simple_jwt
+djangorestframework-simplejwt==5.2.0
+#cors
+django-cors-headers==3.13.0

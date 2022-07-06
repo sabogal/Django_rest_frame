@@ -1,0 +1,10 @@
+#CREAR DOCKERS  SOLO DE DJANGO
+version: '3.5'
+services:
+  django-rest:
+    build: .
+    command: python manage.py runserver 0.0.0.0:3000
+    volumes:
+      - .:/my_app_django_dir
+    ports:
+      - "80:3000"
